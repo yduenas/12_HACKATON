@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="./img/zv_favicon.ico" type="image/vnd.microsoft.icon" />
+		<title>HACKATON 11</title>
+		<!--
+		<link rel="preload" href="./fonts/montserrat400.woff2" as="font" type="font/woff2" crossorigin />
+		<link rel="preload" href="./fonts/montserrat500.woff2" as="font" type="font/woff2" crossorigin />
+		<link rel="preload" href="./fonts/poppins700.woff2" as="font" type="font/woff2" crossorigin />
+			-->
+		<link
+			rel="stylesheet"
+			href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+			integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+			crossorigin="anonymous"
+		/>
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body class="layout-no-sidebars page-view-productos prevent-preload path-cursos-virtuales anonymous">
+		<header id="header" class="header navbar-expand" role="banner" aria-label="Site header" uk-sticky>
+			<div class="container">
+				<div id="brand-main" class="brand-main" style="color: white; font-size: 30px">
+					<strong>CURSOS BASICOS</strong>
+					<!--
+					<a href="#" title="Cursos Virtuales" rel="home" class="brand-logo">
+						<img src="./img/facebook.svg" alt="" />
+					</a>
+					-->
+				</div>
+
+				<div id="navbar-main" class="navbar-main navbar-collapse collapse">
+					<nav id="block-curso-virtual-main-menu" class="navegacion-principal block block-menu navigation menu--main">
+						<h2 class="sr-only" id="block-curso-virtual-main-menu-menu">Navegación Principal</h2>
+						<ul block="block-curso-virtual-main-menu" class="clearfix nav navbar-nav uk-navbar-nav">
+							<li class="nav-item active">
+								<a href="#" class="nav-link active is-active">Cursos</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link"> Programas</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link"> Membresía</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="navbar-main-secondary">
+					<section class="region region-secondary-menu">
+						<div id="block-cestadelacompra" class="block block-commerce-cart">
+							<div class="content">
+								<div class="cart--cart-block">
+									<div class="cart-block--summary">
+										<a class="cart-block--link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+											<img src="./img/carrito-blanco.svg" alt="" />
+											<div id="numero" class="cart-block-count">0</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div id="block-loginblock" class="block block-checkout-drupal-react block-checkout-drupal-react-login">
+							<div class="content">
+								<div id="login-popup"></div>
+							</div>
+						</div>
+
+						<div
+							id="block-formularioinscripcionesmodal"
+							class="hidden-sm block block-block-content block-block-content4b4a536f-7c48-46d7-85a4-538c4db9fb95"
+						>
+							<a href="#" class="btn-inscribete" data-bs-toggle="modal" data-bs-target="#exampleModalInfo">Informes</a>
+						</div>
+					</section>
+				</div>
+			</div>
+		</header>
+
+		<div class="page-main-wrapper">
+			<div id="layout-main" class="layout-main clearfix">
+				<div class="container">
+					<div class="row">
+						<main class="main-content col-lg-12 col-md-12 col-sm-12 col-12" id="main-content" role="main">
+							<section class="section">
+								<div data-drupal-messages-fallback class="hidden"></div>
+								<div id="block-curso-virtual-content" class="block block-system block-system-main-block">
+									<div class="content">
+										<div class="view view-productos view-id-productos">
+											<div class="row">
+												<div class="main-content-view col-lg-12 col-md-12 col-sm-12 col-12">
+													<div id="padre" class="view-content row mb50">
+														<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mb30 views-row">
+															<div class="teaser-node-content-producto productos-cursos">
+																<div class="header-producto">
+																	<div class="field-name-imagen">
+																		<a href="#">
+																			<img
+																				src="./img/excel-basico.jpg"
+																				alt="Excel Básico"
+																				title=""
+																				height="180"
+																				width="280"
+																			/>
+																		</a>
+																	</div>
+																</div>
+																<div class="main-details-producto">
+																	<h2>
+																		<a href="#" class="field-name-curso">Excel Básico</a>
+																		<p>1</p>
+																	</h2>
+																	<div class="field-name-docente">
+																		Por
+																		<strong class="field-name-profesor">Jose Carlos Rivas</strong>
+																	</div>
+																	<div class="wrapper-group-precios uk-flex uk-flex-between">
+																		<div class="field-name-horas uk-flex uk-flex-middle">
+																			<img src="./img/reloj.svg" alt="" />
+																			<span class="field-name-horas">22 horas</span>
+																		</div>
+																		<div class="inner-group-precios uk-flex uk-flex-middle">
+																			<div class="field-name-price-base">S/ 279</div>
+																			<div class="field-name-price-checkout">S/ 237</div>
+																		</div>
+																	</div>
+																	<div class="productos-btn">
+																		<div class="add-cart-react">
+																			<div class="add-to-cart-react" data-variation="1">
+																				<button
+																					class="icon-button comprar"
+																					onMouseOver="this.style.color='#fff'"
+																					onMouseOut="this.style.color='blue'"
+																				>
+																					<i class="fas fa-shopping-cart"></i>
+																				</button>
+																				<button class="button-buy-now comprar">Comprar ahora</button>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mb30 views-row">
+															<div class="teaser-node-content-producto productos-cursos">
+																<div class="header-producto">
+																	<div class="field-name-imagen">
+																		<a href="#">
+																			<img src="./img/excel-intermedio.jpg"" alt="Excel Intermedio" title=""
+																			height="180" width="280" />
+																		</a>
+																	</div>
+																</div>
+																<div class="main-details-producto">
+																	<h2>
+																		<a href="#" class="field-name-curso">Excel Intermedio</a>
+																		<p>2</p>
+																	</h2>
+																	<div class="field-name-docente">
+																		Por
+																		<strong class="field-name-profesor">Jorge Emilio Martin Zubia Chumpitaz</strong>
+																	</div>
+																	<div class="wrapper-group-precios uk-flex uk-flex-between">
+																		<div class="field-name-horas uk-flex uk-flex-middle">
+																			<img src="./img/reloj.svg" alt="" />
+																			<span class="field-name-horas">20 horas</span>
+																		</div>
+																		<div class="inner-group-precios uk-flex uk-flex-middle">
+																			<div class="field-name-price-base">S/ 279</div>
+																			<div class="field-name-price-checkout">S/ 237</div>
+																		</div>
+																	</div>
+																	<div class="productos-btn">
+																		<div class="add-cart-react">
+																			<div class="add-to-cart-react" data-variation="2">
+																				<button
+																					class="icon-button comprar"
+																					onMouseOver="this.style.color='#fff'"
+																					onMouseOut="this.style.color='blue'"
+																				>
+																					<i class="fas fa-shopping-cart"></i>
+																				</button>
+																				<button class="button-buy-now comprar">Comprar ahora</button>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mb30 views-row">
+															<div class="teaser-node-content-producto productos-cursos">
+																<div class="header-producto">
+																	<div class="field-name-imagen">
+																		<a href="#">
+																			<img
+																				src="./img/excel-avanzado.jpg"
+																				alt="Excel Avanzado"
+																				title=""
+																				height="180"
+																				width="280"
+																			/>
+																		</a>
+																	</div>
+																</div>
+																<div class="main-details-producto">
+																	<h2>
+																		<a href="#" class="field-name-curso">Excel Avanzado</a>
+																		<p>3</p>
+																	</h2>
+																	<div class="field-name-docente">
+																		Por
+																		<strong class="field-name-profesor">Johnny Williams Larrea Guzmán</strong>
+																	</div>
+																	<div class="wrapper-group-precios uk-flex uk-flex-between">
+																		<div class="field-name-horas uk-flex uk-flex-middle">
+																			<img src="./img/reloj.svg" alt="" />
+																			<span class="field-name-horas">24 horas</span>
+																		</div>
+																		<div class="inner-group-precios uk-flex uk-flex-middle">
+																			<div class="field-name-price-base">S/ 279</div>
+																			<div class="field-name-price-checkout">S/ 237</div>
+																		</div>
+																	</div>
+																	<div class="productos-btn">
+																		<div class="add-cart-react">
+																			<div class="add-to-cart-react" data-variation="4">
+																				<button
+																					class="icon-button comprar"
+																					onMouseOver="this.style.color='#fff'"
+																					onMouseOut="this.style.color='blue'"
+																				>
+																					<i class="fas fa-shopping-cart"></i>
+																				</button>
+																				<button class="button-buy-now comprar">Comprar ahora</button>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mb30 views-row">
+															<div class="teaser-node-content-producto productos-cursos">
+																<div class="header-producto">
+																	<div class="field-name-imagen">
+																		<a href="#">
+																			<img
+																				src="./img/curso-virtual-de-administracion-bancaria.jpg"
+																				alt="Administración bancaria"
+																				title=""
+																				height="180"
+																				width="280"
+																			/>
+																		</a>
+																	</div>
+																</div>
+																<div class="main-details-producto">
+																	<h2>
+																		<a href="#" class="field-name-curso">Administración bancaria</a>
+																		<p>4</p>
+																	</h2>
+																	<div class="field-name-docente">
+																		Por
+																		<strong class="field-name-profesor">Franco Mautino</strong>
+																	</div>
+																	<div class="wrapper-group-precios uk-flex uk-flex-between">
+																		<div class="field-name-horas uk-flex uk-flex-middle">
+																			<img src="./img/reloj.svg" alt="" />
+																			<span class="field-name-horas">15.8 horas</span>
+																		</div>
+																		<div class="inner-group-precios uk-flex uk-flex-middle">
+																			<div class="field-name-price-base">S/ 279</div>
+																			<div class="field-name-price-checkout">S/ 237</div>
+																		</div>
+																	</div>
+																	<div class="productos-btn">
+																		<div class="add-cart-react">
+																			<div class="add-to-cart-react" data-variation="5">
+																				<button
+																					class="icon-button comprar"
+																					onMouseOver="this.style.color='#fff'"
+																					onMouseOut="this.style.color='blue'"
+																				>
+																					<i class="fas fa-shopping-cart"></i>
+																				</button>
+																				<button class="button-buy-now comprar">Comprar ahora</button>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mb30 views-row">
+															<div class="teaser-node-content-producto productos-cursos">
+																<div class="header-producto">
+																	<div class="field-name-imagen">
+																		<a href="#">
+																			<img
+																				src="./img/curso-virtual-de-administracion-de-restaurantes.jpg"
+																				alt="Administración de restaurantes"
+																				title=""
+																				height="180"
+																				width="280"
+																			/>
+																		</a>
+																	</div>
+																</div>
+																<div class="main-details-producto">
+																	<h2>
+																		<a href="#" class="field-name-curso">Administración de restaurantes</a>
+																		<p>5</p>
+																	</h2>
+																	<div class="field-name-docente">
+																		Por
+																		<strong class="field-name-profesor">Roger Arakaki</strong>
+																	</div>
+																	<div class="wrapper-group-precios uk-flex uk-flex-between">
+																		<div class="field-name-horas uk-flex uk-flex-middle">
+																			<img src="./img/reloj.svg" alt="" />
+																			<span class="field-name-horas">16.9 horas</span>
+																		</div>
+																		<div class="inner-group-precios uk-flex uk-flex-middle">
+																			<div class="field-name-price-base">S/ 279</div>
+																			<div class="field-name-price-checkout">S/ 237</div>
+																		</div>
+																	</div>
+																	<div class="productos-btn">
+																		<div class="add-cart-react">
+																			<div class="add-to-cart-react" data-variation="6">
+																				<button
+																					class="icon-button comprar"
+																					onMouseOver="this.style.color='#fff'"
+																					onMouseOut="this.style.color='blue'"
+																				>
+																					<i class="fas fa-shopping-cart"></i>
+																				</button>
+																				<button class="button-buy-now comprar">Comprar ahora</button>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mb30 views-row">
+															<div class="teaser-node-content-producto productos-cursos">
+																<div class="header-producto">
+																	<div class="field-name-imagen">
+																		<a href="#">
+																			<img
+																				src="./img/curso-virtual-de-estrategia-de-construccion-de-un-plan-de-negocio.jpg"
+																				alt="Construcción de un plan de negocios"
+																				title=""
+																				height="180"
+																				width="280"
+																			/>
+																		</a>
+																	</div>
+																</div>
+																<div class="main-details-producto">
+																	<h2>
+																		<a href="#" class="field-name-curso">Construcción de un plan de negocios</a>
+																		<p>6</p>
+																	</h2>
+																	<div class="field-name-docente">
+																		Por
+																		<strong class="field-name-profesor">Luis Vallejos</strong>
+																	</div>
+																	<div class="wrapper-group-precios uk-flex uk-flex-between">
+																		<div class="field-name-horas uk-flex uk-flex-middle">
+																			<img src="./img/reloj.svg" alt="" />
+																			<span class="field-name-horas">17.3 horas</span>
+																		</div>
+																		<div class="inner-group-precios uk-flex uk-flex-middle">
+																			<div class="field-name-price-base">S/ 279</div>
+																			<div class="field-name-price-checkout">S/ 237</div>
+																		</div>
+																	</div>
+																	<div class="productos-btn">
+																		<div class="add-cart-react">
+																			<div class="add-to-cart-react" data-variation="7">
+																				<button
+																					class="icon-button comprar"
+																					onMouseOver="this.style.color='#fff'"
+																					onMouseOut="this.style.color='blue'"
+																				>
+																					<i class="fas fa-shopping-cart"></i>
+																				</button>
+																				<button class="button-buy-now comprar">Comprar ahora</button>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mb30 views-row">
+															<div class="teaser-node-content-producto productos-cursos">
+																<div class="header-producto">
+																	<div class="field-name-imagen">
+																		<a href="#">
+																			<img
+																				src="./img/curso-virtual-de-contabilidad-para-no-contadores.jpg"
+																				alt="Contabilidad para no contadores"
+																				title=""
+																				height="180"
+																				width="280"
+																			/>
+																		</a>
+																	</div>
+																</div>
+																<div class="main-details-producto">
+																	<h2>
+																		<a href="#" class="field-name-curso">Contabilidad para no contadores</a>
+																		<p>7</p>
+																	</h2>
+																	<div class="field-name-docente">
+																		Por
+																		<strong class="field-name-profesor">Edgar Lizama Panta</strong>
+																	</div>
+																	<div class="wrapper-group-precios uk-flex uk-flex-between">
+																		<div class="field-name-horas uk-flex uk-flex-middle">
+																			<img src="./img/reloj.svg" alt="" />
+																			<span class="field-name-horas">18 horas</span>
+																		</div>
+																		<div class="inner-group-precios uk-flex uk-flex-middle">
+																			<div class="field-name-price-base">S/ 279</div>
+																			<div class="field-name-price-checkout">S/ 237</div>
+																		</div>
+																	</div>
+																	<div class="productos-btn">
+																		<div class="add-cart-react">
+																			<div class="add-to-cart-react" data-variation="8">
+																				<button
+																					class="icon-button comprar"
+																					onMouseOver="this.style.color='#fff'"
+																					onMouseOut="this.style.color='blue'"
+																				>
+																					<i class="fas fa-shopping-cart"></i>
+																				</button>
+																				<button class="button-buy-now comprar">Comprar ahora</button>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mb30 views-row">
+															<div class="teaser-node-content-producto productos-cursos">
+																<div class="header-producto">
+																	<div class="field-name-imagen">
+																		<a href="#">
+																			<img
+																				src="./img/curso-virtual-de-costos-y-presupuestos2.jpg"
+																				alt="Costos y Presupuestos"
+																				title=""
+																				height="180"
+																				width="280"
+																			/>
+																		</a>
+																	</div>
+																</div>
+																<div class="main-details-producto">
+																	<h2>
+																		<a href="#" class="field-name-curso">Costos y Presupuestos</a>
+																		<p>8</p>
+																	</h2>
+																	<div class="field-name-docente">
+																		Por
+																		<strong class="field-name-profesor">Eliberth Ascue</strong>
+																	</div>
+																	<div class="wrapper-group-precios uk-flex uk-flex-between">
+																		<div class="field-name-horas uk-flex uk-flex-middle">
+																			<img src="./img/reloj.svg" alt="" />
+																			<span class="field-name-horas">18 horas</span>
+																		</div>
+																		<div class="inner-group-precios uk-flex uk-flex-middle">
+																			<div class="field-name-price-base">S/ 279</div>
+																			<div class="field-name-price-checkout">S/ 237</div>
+																		</div>
+																	</div>
+																	<div class="productos-btn">
+																		<div class="add-cart-react">
+																			<div class="add-to-cart-react" data-variation="9">
+																				<button
+																					class="icon-button comprar"
+																					onMouseOver="this.style.color='#fff'"
+																					onMouseOut="this.style.color='blue'"
+																				>
+																					<i class="fas fa-shopping-cart"></i>
+																				</button>
+																				<button class="button-buy-now comprar">Comprar ahora</button>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mb30 views-row">
+															<div class="teaser-node-content-producto productos-cursos">
+																<div class="header-producto">
+																	<div class="field-name-imagen">
+																		<a href="#">
+																			<img
+																				src="./img/curso-virtual-de-creacion-y-formalizacion-de-empresas.jpg"
+																				alt="Creación y formalización de empresas"
+																				title=""
+																				height="180"
+																				width="280"
+																			/>
+																		</a>
+																	</div>
+																</div>
+																<div class="main-details-producto">
+																	<h2>
+																		<a href="#" class="field-name-curso">Creación y formalización de empresas</a>
+																		<p>9</p>
+																	</h2>
+
+																	<div class="field-name-docente">
+																		Por
+																		<strong class="field-name-profesor">Tarcila Apagueño Tuanama</strong>
+																	</div>
+																	<div class="wrapper-group-precios uk-flex uk-flex-between">
+																		<div class="field-name-horas uk-flex uk-flex-middle">
+																			<img src="./img/reloj.svg" alt="" />
+																			<span class="field-name-horas">7.9 horas</span>
+																		</div>
+																		<div class="inner-group-precios uk-flex uk-flex-middle">
+																			<div class="field-name-price-base">S/ 279</div>
+																			<div class="field-name-price-checkout">S/ 237</div>
+																		</div>
+																	</div>
+																	<div class="productos-btn">
+																		<div class="add-cart-react">
+																			<div class="add-to-cart-react" data-variation="10">
+																				<button
+																					class="icon-button comprar"
+																					onMouseOver="this.style.color='#fff'"
+																					onMouseOut="this.style.color='blue'"
+																				>
+																					<i class="fas fa-shopping-cart"></i>
+																				</button>
+																				<button class="button-buy-now comprar">Comprar ahora</button>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mb30 views-row">
+															<div class="teaser-node-content-producto productos-cursos">
+																<div class="header-producto">
+																	<div class="field-name-imagen">
+																		<a href="#">
+																			<img
+																				src="./img/curso-virtual-de-gestion-estrategica-empresarial1.jpg"
+																				alt="Gestión Estratégica Empresarial"
+																				title=""
+																				height="180"
+																				width="280"
+																			/>
+																		</a>
+																	</div>
+																</div>
+																<div class="main-details-producto">
+																	<h2>
+																		<a href="#" class="field-name-curso">Gestión Estratégica Empresarial</a>
+																		<p>10</p>
+																	</h2>
+																	<div class="field-name-docente">
+																		Por
+																		<strong class="field-name-profesor">Katia Lavado</strong>
+																	</div>
+																	<div class="wrapper-group-precios uk-flex uk-flex-between">
+																		<div class="field-name-horas uk-flex uk-flex-middle">
+																			<img src="./img/reloj.svg" alt="" />
+																			<span class="field-name-horas">16 horas</span>
+																		</div>
+																		<div class="inner-group-precios uk-flex uk-flex-middle">
+																			<div class="field-name-price-base">S/ 279</div>
+																			<div class="field-name-price-checkout">S/ 237</div>
+																		</div>
+																	</div>
+																	<div class="productos-btn">
+																		<div class="add-cart-react">
+																			<div class="add-to-cart-react" data-variation="11">
+																				<button
+																					class="icon-button comprar"
+																					onMouseOver="this.style.color='#fff'"
+																					onMouseOut="this.style.color='blue'"
+																				>
+																					<i class="fas fa-shopping-cart"></i>
+																				</button>
+																				<button class="button-buy-now comprar">Comprar ahora</button>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!--acaban items aca-->
+							</section>
+						</main>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--inicio de footer -->
+
+		<!--fin de footer -->
+		<!-- Modal -->
+		<div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">
+							Carrito de compras <img src="./img/carrito-azul.svg" alt="" />
+						</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<table class="table">
+							<thead>
+								<tr>
+									<th width="30%">Imagen</th>
+									<th width="35%">Nombre</th>
+									<th width="20%">Precio</th>
+									<th width="10%">Accion</th>
+								</tr>
+							</thead>
+							<tbody id="tbody">
+								<!--
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								-->
+							</tbody>
+						</table>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+						<button type="button" class="btn btn-secondary" onclick="eliminarCursoTOTAL()">Limpiar Carrito</button>
+						<button type="button" class="btn btn-primary">Comprar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--/Modal -->
+		<!-- Modal -->
+		<div class="modal" id="exampleModalInfo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Información</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">Este es un jejmplo de carrito de compras en una HACKATON.</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--/Modal -->
+		<!-- Option 1: Bootstrap Bundle with Popper -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+			crossorigin="anonymous"
+		></script>
+		<!--SCRIPT-->
+		<script src="./js/app.js"></script>
+		<!--/SCRIPT-->
+	</body>
+</html>
